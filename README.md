@@ -27,3 +27,4 @@ Route::get('/start','ExampleController@start');
 * Si els mètodes que ens crea el "php artisan make:controller --resource" ens serveixen per la nostra web, si dintre el fitxer de rutes afegim "Route::resource("post","Example3Controller");", ens crea totes les rutes automàticament
 * Bootstrap (Framework CSS, permet donar format a un lloc Web utilitzant llibreries CSS)
 * Per utilitzar Bootstrap, reemplaçar carpetes /public/css i /public/js per les que ens descargarem de la Web de [Bootstrap](http://getbootstrap.com/).
+* compact("nomArray") (Permet pasar un número de elements variable)

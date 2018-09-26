@@ -28,3 +28,9 @@ Route::get('/start','ExampleController@start');
 * Bootstrap (Framework CSS, permet donar format a un lloc Web utilitzant llibreries CSS)
 * Per utilitzar Bootstrap, reemplaçar carpetes /public/css i /public/js per les que ens descargarem de la Web de [Bootstrap](http://getbootstrap.com/).
 * compact("nomArray") (Permet pasar un número de elements variable)
+* php artisan migrate (executa les migracions)
+* php artisan make:migration create_nomTaula(opcional)_table --create="nomTaula"
+* php artisan migrate:rollback (Tira un pas enrere)
+* php artisan migrate:reset (Fa un reset de totes les migracions)
+* php artisan migrate:refresh (Elimina i executa TOTES les migracions)
+* php artisan migrate:status (Per saber si hem executat els arxius migrate)

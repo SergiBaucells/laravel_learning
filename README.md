@@ -34,3 +34,4 @@ Route::get('/start','ExampleController@start');
 * php artisan migrate:reset (Fa un reset de totes les migracions)
 * php artisan migrate:refresh (Elimina i executa TOTES les migracions)
 * php artisan migrate:status (Per saber si hem executat els arxius migrate)
+* php artisan dump-server (Per que surtin els xivatos per consola)
